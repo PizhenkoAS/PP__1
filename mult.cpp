@@ -11,27 +11,6 @@ int main()
     system("cls");
     fstream fs("C:/Users/A.txt");
     fstream fs1("C:/Users/A1.txt");
-    /*std::ofstream in1;
-    in1.open("C:/Users/A1.txt");
-    if (in1.is_open())
-    {
-        for (int i = 0; i < 1000000; i++)
-        {
-            in1 << rand() % 110 - 55 << "\n";
-        }
-    }
-    cout << "Pervuy gotov";
-    std::ofstream in;
-    in.open("C:/Users/admin/Desktop/M.txt");
-    if (in.is_open())
-    {
-        for (int i = 0; i < 1000000; i++)
-        {
-            in << rand() % 100 - 50 << "\n";
-        }
-    }
-    cout << "Vtoroy gotov";
-    */
     std::ofstream out;
     std::ofstream out_python;
     out.open("C:/Users/result.txt");
